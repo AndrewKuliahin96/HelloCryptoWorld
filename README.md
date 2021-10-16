@@ -8,3 +8,7 @@ Then check **/data/data/com.andrewkuliahin.cryptohelloworld/files/** directory f
 * Paradigms - circles
 * Year - the older, the darker
 * Every time new code syntax and background color
+
+### Example
+
+![Kotlin language item example](Kotlin.png)
