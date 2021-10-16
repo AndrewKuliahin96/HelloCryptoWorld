@@ -12,7 +12,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 object CSharp : ProgrammingLanguage() {
 
-    override fun getTextSize(): TextUnit = 20.sp
+    override fun getTextSize(): TextUnit = 16.sp
 
     override fun getName(): String = "C#"
 

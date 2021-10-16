@@ -27,7 +27,7 @@ import com.andrewkuliahin.cryptohelloworld.DrawerView
 import com.andrewkuliahin.cryptohelloworld.FileManager
 import com.andrewkuliahin.cryptohelloworld.languages.ProgrammingLanguage
 import com.andrewkuliahin.cryptohelloworld.languages.programmingLanguages
-import com.andrewkuliahin.cryptohelloworld.ui.theme.CanvasArtTheme
+import com.andrewkuliahin.cryptohelloworld.ui.theme.HelloCryptoWorldArtTheme
 import java.io.FileOutputStream
 import java.io.IOException
 
@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
 
-            CanvasArtTheme {
+            HelloCryptoWorldArtTheme {
                 Scaffold {
                     NavigationComponent(navController)
                 }

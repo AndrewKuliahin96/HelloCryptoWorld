@@ -12,7 +12,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 object Cpp : ProgrammingLanguage() {
 
-    override fun getTextSize(): TextUnit = 18.sp
+    override fun getTextSize(): TextUnit = 14.sp
 
     override fun getName(): String = "C++"
 

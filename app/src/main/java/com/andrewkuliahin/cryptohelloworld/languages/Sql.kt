@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 object Sql : ProgrammingLanguage() {
 
-    override fun getTextSize(): TextUnit = 14.sp
+    override fun getTextSize(): TextUnit = 13.sp
 
     override fun getName(): String = "SQL"
 

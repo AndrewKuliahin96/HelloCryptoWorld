@@ -26,6 +26,7 @@ import com.andrewkuliahin.cryptohelloworld.languages.Fortran
 import com.andrewkuliahin.cryptohelloworld.languages.paradigm.Paradigm
 import com.andrewkuliahin.cryptohelloworld.languages.ProgrammingLanguage
 import com.andrewkuliahin.cryptohelloworld.languages.programmingLanguages
+import com.andrewkuliahin.cryptohelloworld.ui.theme.consolas
 import java.util.Calendar
 import kotlin.random.Random
 
@@ -59,7 +60,7 @@ class DrawerView constructor(context: Context) : LinearLayoutCompat(context) {
         postDelayed({
             val bitmap = createBitmapFromView(view = view, width = width, height = height)
             onBitmapCreated?.invoke(bitmap, languageName)
-        }, 3_000L)
+        }, 500L)
     }
 }
 
@@ -100,6 +101,7 @@ fun ProgrammingLanguageCanvas(programmingLanguage: ProgrammingLanguage) {
                 .wrapContentSize(Alignment.Center),
             text = programmingLanguage.getAnnotatedHelloWorld(),
             fontSize = programmingLanguage.getTextSize(),
+            fontFamily = consolas,
             style = MaterialTheme.typography.h4.copy(
                 shadow = Shadow(
                     color = Color.Black,
