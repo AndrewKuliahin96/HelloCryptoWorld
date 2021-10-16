@@ -1,0 +1,42 @@
+package com.andrewkuliahin.cryptohelloworld.languages
+
+val programmingLanguages by lazy {
+    listOf(
+        Ada,
+        Algol,
+        Basic,
+        C,
+        Cpp,
+        CSharp,
+        Clojure,
+        Cobol,
+        Dart,
+        Delphi,
+        Fortran,
+        FSharp,
+        Go,
+        Groovy,
+        Haskell,
+        Java,
+        JavaScript,
+        Kotlin,
+        Lisp,
+        Lua,
+        Mathematica,
+        Matlab,
+        Pascal,
+        Perl,
+        Php,
+        PowerShell,
+        Python,
+        Ruby,
+        Rust,
+        Scala,
+        Scheme,
+        Smalltalk,
+        Sql,
+        Swift,
+        Verilog,
+        Vhdl
+    )
+}
